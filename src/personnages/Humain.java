@@ -32,11 +32,11 @@ public class Humain {
 		parler("Mmmm, un bon verre de " + boissonFavorite + " ! GLOUPS !");
 	}
 	
-	private void gagnerArgent(int montant) {
+	public void gagnerArgent(int montant) {
 		argent += montant;
 	}
 	
-	private void perdreArgent(int montant) {
+	public void perdreArgent(int montant) {
 		if (argent > montant) {
 			argent -= montant;
 		} else {
