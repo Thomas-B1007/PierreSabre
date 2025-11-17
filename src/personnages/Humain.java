@@ -6,7 +6,6 @@ public class Humain {
 	private int argent;
 	
 	public Humain(String nom, String boissonFavorite, int argent) {
-		super();
 		this.nom = nom;
 		this.boissonFavorite = boissonFavorite;
 		this.argent = argent;
