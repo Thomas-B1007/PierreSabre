@@ -20,6 +20,8 @@ public class HistoireTP5 {
 		marco.listerConnaissance();
 		roro.listerConnaissance();
 		yaku.listerConnaissance();
+		
+		yaku.direBonjour();
 	}
 
 }
